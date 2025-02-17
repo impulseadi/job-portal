@@ -27,6 +27,7 @@ const ApplyJob = () => {
             const { data } = await axios.get(backendUrl + `/api/jobs/${id}`)
             if (data.success) {
                 setJobData(data.job)
+                
             } else {
                 toast.error(data.message)
             }
@@ -58,6 +59,7 @@ const ApplyJob = () => {
                 if (data.success) {
                     toast.success(data.message)
                     fetchUserApplications()
+                    
                 } else {
                     toast.error(data.message)
                 }
@@ -71,7 +73,11 @@ const ApplyJob = () => {
 
     const checkAlreadyApplied = () => {
         if (JobData?. _id) {
-            const hasApplied = userApplications.some(item => item.jobId._id === JobData._id)
+          console.log("Job Data:", JobData);
+console.log("User Data:", userData);
+console.log("User Applications:", userApplications);
+
+            const hasApplied = userApplications.some(item => item.jobId?._id === JobData._id)
             setIsAlreadyApplied(hasApplied)
         }
     }
