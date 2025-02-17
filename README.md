@@ -1,6 +1,6 @@
 # Job Portal Application
 
-**Live Link**: [Job Portal](https://job-portal-impulseadi.vercel.app)  
+**Live Link**: [Job Portal](https://job-portal-client-git-main-impulseadis-projects.vercel.app/))  
 **GitHub Repository**: [Job Portal GitHub](https://github.com/impulseadi/job-portal)
 
 ## Project Overview
@@ -36,6 +36,19 @@ The Job Portal Application is a full-stack web application built using the **MER
 - **Authentication**: Clerk, JWT
 - **Error Tracking**: Sentry
 - **Deployment**: Vercel (Frontend), Render (Backend)
+
+![Screenshot 2025-02-18 025910](https://github.com/user-attachments/assets/45bdfe2a-1614-495b-99b0-d6f97d6f9b2f)
+![Screenshot 2025-02-18 025919](https://github.com/user-attachments/assets/adfec915-a2a2-4d19-80d1-8d5037a289c4)
+![Screenshot 2025-02-18 025929](https://github.com/user-attachments/assets/18b83c69-db07-4240-8045-c86a30167b65)
+![Screenshot 2025-02-18 025938](https://github.com/user-attachments/assets/154331ec-ba6e-4b53-a1a0-dd3eae3a4d88)
+![Screenshot 2025-02-18 025950](https://github.com/user-attachments/assets/c34209fd-9da4-443e-82fa-7bc18f674fa6)
+![Screenshot 2025-02-18 030004](https://github.com/user-attachments/assets/f757b247-a9d4-49d2-a3a6-40ad621451d9)
+![Screenshot 2025-02-18 030016](https://github.com/user-attachments/assets/c6e0c16a-4c42-4e2d-8604-3796cabafad4)
+![Screenshot 2025-02-18 032706](https://github.com/user-attachments/assets/d4ee4c93-42b3-4d3d-9428-303a81bb00c6)
+![Screenshot 2025-02-18 032715](https://github.com/user-attachments/assets/24cfc95e-6cae-4cc5-bbee-5c6258ca3e1d)
+![Screenshot 2025-02-18 032730](https://github.com/user-attachments/assets/2f993548-61bc-42da-b970-c247269ee891)
+
+
 
 
 
