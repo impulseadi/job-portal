@@ -1,6 +1,6 @@
 # Job Portal Application
 
-**Live Link**: [Job Portal](https://job-portal-client-git-main-impulseadis-projects.vercel.app/))  
+**Live Link**: [Job Portal](https://job-portal-client-git-main-impulseadis-projects.vercel.app/)  
 **GitHub Repository**: [Job Portal GitHub](https://github.com/impulseadi/job-portal)
 
 ## Project Overview
