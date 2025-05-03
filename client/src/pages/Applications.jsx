@@ -67,7 +67,7 @@ useEffect(() => {
                <label className='flex items-center' htmlFor="resumeUpload">
                 <p className='bg-blue-100 text-blue-600 px-4 py-2 rounded-lg mr-2'>{resume ? resume.name : "Select Resume"}</p>
                 <input id='resumeUpload' onChange={e => setResume(e.target.files[0])}  accept='application/pdf' type="file" hidden/>
-                <img src={assets.profile_upload_icon} alt="" />
+                <img src={assets.profile_upload_icon} alt="" loading="lazy"/>
                </label>
                <button onClick={updateResume} className='bg-green-100 border border-green-400 rounded-lg px-4 py-2 cursor-pointer'>Save</button>
                </>
@@ -97,7 +97,7 @@ useEffect(() => {
                 {userApplications.map((job, index)=> true ? (
                     <tr key={index}>
                         <td className='py-3 px-4 flex items-center gap-2 border-b'>
-                            <img className='w-8 h-8' src={job.companyId.image} alt="" />
+                            <img className='w-8 h-8' src={job.companyId.image} alt="" loading="lazy"/>
                             {job.companyId.name}
                         </td>
                         <td className='py-2 px-4 border-b'>{job.jobId.title}</td>

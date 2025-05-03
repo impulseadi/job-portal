@@ -100,24 +100,24 @@ console.log("User Applications:", userApplications);
                 <div className='bg-white text-black rounded-lg w-ful'>
                     <div className='flex justify-center md:justify-between flex-wrap gap-8 px-14 py-20  mb-6 bg-sky-50 border border-sky-400 rounded-xl'>
                         <div className='flex flex-col md:flex-row items-center'>
-                            <img className='h-24 bg-white rounded-lg p-4 mr-4 max-md:mb-4 border' src={JobData.companyId.image} alt="" />
+                            <img className='h-24 bg-white rounded-lg p-4 mr-4 max-md:mb-4 border' src={JobData.companyId.image} alt="" loading="lazy" />
                             <div className='text-center md:text-left text-neutral-700'>
                                 <h1 className='text-2xl sm:text-4xl font-medium'>{JobData.title}</h1>
                                 <div className='flex flex-row flex-wrap max-md:justify-center gap-y-2 gap-6 items-center text-gray-600 mt-2'>
                                     <span className='flex items-center gap-1'>
-                                        <img src={assets.suitcase_icon} alt="" />
+                                        <img src={assets.suitcase_icon} alt="" loading="lazy"/>
                                         {JobData.companyId.name}
                                     </span>
                                     <span className='flex items-center gap-1'>
-                                        <img src={assets.location_icon} alt="" />
+                                        <img src={assets.location_icon} alt="" loading="lazy"/>
                                         {JobData.location}
                                     </span>
                                     <span className='flex items-center gap-1'>
-                                        <img src={assets.person_icon} alt="" />
+                                        <img src={assets.person_icon} alt="" loading="lazy"/>
                                         {JobData.level}
                                     </span>
                                     <span className='flex items-center gap-1'>
-                                        <img src={assets.money_icon} alt="" />
+                                        <img src={assets.money_icon} alt="" loading="lazy"/>
                                         CTC: {kconvert.convertTo(JobData.salary)}
                                     </span>
                                 </div>
