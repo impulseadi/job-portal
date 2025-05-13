@@ -1,20 +1,24 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
-import Hero from '../components/Hero'
-import JobListing from '../components/JobListing'
-import AppDownload from '../components/AppDownload'
-import Footer from '../components/Footer'
+import React, { lazy, Suspense } from 'react';
+import Navbar from '../components/Navbar';
+import Hero from '../components/Hero';
+const JobListing = lazy(() => import('../components/JobListing')); // lazy import
+import AppDownload from '../components/AppDownload';
+import Footer from '../components/Footer';
 
 const Home = () => {
   return (
     <div>
-        <Navbar/>
-        <Hero/>
-        <JobListing/>
-        <AppDownload/>
-        <Footer/>
-    </div>
-  ) 
-}
+      <Navbar />
+      <Hero />
 
-export default Home
+      <Suspense fallback={<div className="text-center py-10">Loading Jobs...</div>}>
+        <JobListing />
+      </Suspense>
+
+      <AppDownload />
+      <Footer />
+    </div>
+  );
+};
+
+export default Home;
